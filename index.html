@@ -6,10 +6,11 @@
     <meta charset="UTF-8">
     <meta name="description" content="Philipp's CS50 Google Replication">
     <meta name="author" content="Philipp Kothe @ Harvard CS50">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body> 
-    <ul>
+    <ul class="top-navigation">
         <li>
             <a href="image_search.html" >Images</a>
         </li>
@@ -17,11 +18,22 @@
             <a href="advanced_search.html" >Advanced Search</a>
         </li>
     </ul>
-    
-    <img src="https://lh3.googleusercontent.com/jLR1v05OpV1izsVC0E7ybJAwNlV00p3o_I4uE5L6Arus9xcYq5pPxe1elPTYNIV-oID9FjTyIba-xxLvvhl2g89mCrxalkTe5yYclaIBPrLBkri-SYoVMEVRBDMmV3XDElY0GU1-5ZHaF4Xtehdmg4rqXRTKPOsy8SeuNRfzlNkQOGw9DstQcmlxQ1P6bMYiss-xUfD46VlxHtpCkHLs1CVNC4Xc8gPYlX9IGETpJIViNf3ICId3dNbfCDCC9P_21s-YFtYw_2g3OuCRa0DUjhmAYlg9K22y33JQHHp8uAZVJuPDAuFfAZ5mgLUuilypE-ca3c34ZCMLj8P9jOwmsr77VDUpB5NZhcxvsnGtbffAcqMCit8Bi-qFAb-QD7OEE8HobdXudtL7Ar8Hxw5yafUN713pc88fJIMLoZ9KU1UZax4Q4dzgjZ41od_DAXcHrkPH0J8CY1cZt8TEoepjztxQBT9PGrRQDt-OXM3swlQ94BEG0EwJVlLKA83nqQeXEydo2ahfl7vKtY1eA-OXWn_ahOlnQ-WCPlBZ3UY7-x8epyV_xyKHi0SQrU9AlQ1tFLTN_YF9f1i4K8TaIacQo0JvmbMJ_s_94_vjS11qWsdumY6yU5iBsDkX6SQtgQm5uA4_vvCFeNZ-RCyh2f8Snj9kKm7ZzF3KWd-vdlm4AgNuURLGwu1ANn2y-RCh=w424-h73-no?authuser=0" alt="PhilsGoogle">
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
+
+    <div class="search-box">
+        <img src="https://github.com/Crypto-Phil/cs50_project_0/blob/master/Images/phils_google.png?raw=true" alt="PhilsGoogle">
+        <form action="https://google.com/search">
+            <div>
+                <input type="text" name="q">
+             </div>
+             <div> 
+                 <ul class="search-button">
+                      <li> <input type="submit" value="Google Search"> </li>
+                      <li class="search-button2"> <button>I'm Feeling Lucky</button> </li>
+                    </ul>
+             </div>
+           
+        </form>    
+    </div>
+
 </body> 
 </html>
