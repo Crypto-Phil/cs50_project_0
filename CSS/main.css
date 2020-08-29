@@ -4,7 +4,6 @@
 
 body {
     background: none repeat scroll 0 0 #fff;
-
     color: #222;
     margin:0;
 }
@@ -50,8 +49,8 @@ a.button:hover {
 }
 
 .search-bar {
-    height: 30px;
-    width: 582px;
+    height: 40px;
+    width: 550px;
     margin: 10px;
     margin-bottom: 10px;
     border: 1px solid #dfe1e5;
@@ -65,3 +64,8 @@ a.button:hover {
     text-align: center;
     border-radius: 4px;
 } 
+
+.search-bar-button {
+    margin-top: 0
+  
+}
