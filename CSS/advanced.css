@@ -3,6 +3,19 @@
     padding: 0;
  }
 
+ a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+a.button:hover {
+    text-decoration: none;
+}
 
 .top-navigation {
     background-color: #F1F1F1;
@@ -16,8 +29,20 @@
     margin: 20px 0px 5px 10px;
 }
 
-.top-navigation ul li {
+.top-navigation ul {
     list-style: none;
     float: right;
+    padding: 10px;
+}
+
+.top-navigation li {
+    display: inline;
+    margin: 20px 10px;
     
+}
+
+
+.heading {
+    color: #D93025;
+    margin: 10px;
 }
