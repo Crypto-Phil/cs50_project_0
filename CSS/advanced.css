@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: arial;
  }
 
  a {
@@ -41,8 +42,48 @@ a.button:hover {
     
 }
 
-
 .heading {
     color: #D93025;
-    margin: 10px;
+    margin: 30px 10px 30px 0px;
+    border-bottom: 2px solid #F1F1F1;
+    padding-left: 45px;
+    padding-bottom: 25px;
 }
+
+.heading h3 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.input-fields {
+    padding-left: 45px;
+}
+
+.input-fields h3 {
+    font-weight: 300;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"] {
+    left: 10%;
+    position: relative;
+    width: 50%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #F1F1F1;
+}
+
+.button {
+    background-color:#4988F0;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    border-radius: 2px;
+    
+
