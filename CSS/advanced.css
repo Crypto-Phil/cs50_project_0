@@ -38,7 +38,8 @@ a.button:hover {
 
 .top-navigation li {
     display: inline;
-    margin: 20px 10px;
+    margin: 10px;
+    padding-top: 40px;
     
 }
 
@@ -57,12 +58,13 @@ a.button:hover {
 
 .input-fields {
     padding-left: 45px;
+    margin-right: 10%;
 }
 
 .input-fields h3 {
     font-weight: 300;
     color: #333;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .form-group {
@@ -70,7 +72,6 @@ a.button:hover {
 }
 
 .form-group input[type="text"] {
-    left: 10%;
     position: relative;
     width: 50%;
     height: 25px;
@@ -79,11 +80,17 @@ a.button:hover {
     border-color: #F1F1F1;
 }
 
+.form-group label {
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+}
+
 .button {
     background-color:#4988F0;
     color:#fff;
     padding:10px 15px;
     border:none;
     border-radius: 2px;
-    
-
+}
