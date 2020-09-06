@@ -78,4 +78,14 @@ a.button:hover {
     text-align: center;
 }
 
-
+.search-bar-button {
+    top: 84%;
+    left: 60%;
+    z-index: 2;
+    background:url(https://github.com/Crypto-Phil/cs50_project_0/blob/newtry/Images/search_icon.png?raw=true) no-repeat 5px center;
+    background-size: 50px 50px;
+    background-position: center;
+    padding: 15px 15px;
+    position: absolute;
+    border: none
+}
